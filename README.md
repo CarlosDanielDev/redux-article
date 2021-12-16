@@ -1,7 +1,4 @@
-
-![redux-scheme](https://i.imgur.com/K87SEgi.png)
-
----
+# Redux
 
 ![data-flux](https://i.imgur.com/cE9PWTI.png)
 
