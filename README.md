@@ -220,7 +220,7 @@ export interface AppState {
 }
 // Create Sagas Middleware
 const sagaMiddleware = createSagaMiddleware()
-// create store variable and apply reducers and saga middleware
+// create store variable to apply reducers and saga middleware
 const store: Store<AppState> = createStore(rootReducer, applyMiddleware(sagaMiddleware))
 
 sagaMiddleware.run(rootSaga)
